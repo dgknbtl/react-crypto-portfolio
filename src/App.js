@@ -5,7 +5,7 @@ import AssetList from "./components/AssetList";
 function App() {
   return (
     <div className="App flex items-center justify-center h-full">
-      <main className="w-[390px] h-[700px] border border-gray-200 shadow-lg rounded-[20px]">
+      <main className="w-[550px] h-[700px] border border-gray-100 shadow-lg rounded-[20px] bg-white">
         <Header />
         <Chart />
         <AssetList />
